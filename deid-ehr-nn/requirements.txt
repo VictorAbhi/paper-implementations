@@ -1,3 +1,6 @@
+pandas
+numpy
+torch
+tensorflow
+sklearn
 transformers
-seqeval
-torchcrf

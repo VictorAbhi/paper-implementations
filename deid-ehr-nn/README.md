@@ -1,6 +1,6 @@
 # EHR De-identification with Neural Networks
 
-This repository contains an implementation of the methodology from the research paper *"De-identification of electronic health record using neural network"* (Scientific Reports, 2020, University of Manitoba) for detecting Protected Health Information (PHI) in electronic health records (EHRs) using BIOES tagging. The project leverages Recurrent Neural Networks (RNNs) with GloVe and character embeddings, inspired by the paper's GRU, stacked RNNs, and CRF-based approach. This is solely for my learning purposes,
+This contains an implementation of the methodology from the research paper *"De-identification of electronic health record using neural network"* (Scientific Reports, 2020, University of Manitoba) for detecting Protected Health Information (PHI) in electronic health records (EHRs) using BIOES tagging. The project leverages Recurrent Neural Networks (RNNs) with GloVe and character embeddings, inspired by the paper's GRU, stacked RNNs, and CRF-based approach. I am documenting my research paper readings
 
 ## Project Overview
 

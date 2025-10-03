@@ -18,3 +18,12 @@ Regular Autoencoder: minimize ||x - decoder(encoder(x))||²
 
 Denoising Autoencoder: minimize ||x - decoder(encoder(C(x)))||²
                     where C(x) is the corrupted version of x
+
+**Paper 3 Sparse Autoencoder**
+Sparse Autoencoder for Feature Learning (Ng, 2011 tutorial)
+
+**Idea**: Encourage sparsity in hidden activations (via KL divergence or L1 regularization).
+
+**Learning**: How sparsity encourages useful features, prevents trivial identity mapping.
+
+**Implementation**: Add sparsity penalty to autoencoder trained on MNIST.

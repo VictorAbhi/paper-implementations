@@ -27,3 +27,12 @@ Sparse Autoencoder for Feature Learning (Ng, 2011 tutorial)
 **Learning**: How sparsity encourages useful features, prevents trivial identity mapping.
 
 **Implementation**: Add sparsity penalty to autoencoder trained on MNIST.
+
+***Paper 4 Variational Autoencoder**
+Auto-Encoding Variational Bayes (Kingma & Welling, ICLR 2014)
+
+**Idea**: Probabilistic autoencoder → learns a distribution of latent variables.
+
+**Learning**: Latent variable models, reparameterization trick, KL divergence.
+
+**Implementation**: Train a VAE on MNIST, sample new digits from the latent space.

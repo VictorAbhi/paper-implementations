@@ -36,3 +36,12 @@ Auto-Encoding Variational Bayes (Kingma & Welling, ICLR 2014)
 **Learning**: Latent variable models, reparameterization trick, KL divergence.
 
 **Implementation**: Train a VAE on MNIST, sample new digits from the latent space.
+
+***Paper 5 Beta Variational Autoencoder**
+β-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework (Higgins et al., ICLR 2017)
+
+**Idea**: Add a hyperparameter β to control trade-off between reconstruction and disentanglement.
+
+**Learning**: How to discover disentangled representations.
+
+**Implementation**: Train on dSprites or CelebA, visualize latent traversal (changing one latent at a time).

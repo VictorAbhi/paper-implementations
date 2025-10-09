@@ -45,3 +45,12 @@ Auto-Encoding Variational Bayes (Kingma & Welling, ICLR 2014)
 **Learning**: How to discover disentangled representations.
 
 **Implementation**: Train on dSprites or CelebA, visualize latent traversal (changing one latent at a time).
+
+**Paper 6 Adversarial Autoencoders**
+Makhzani et al., ICLR 2016
+
+**Idea**: Combine autoencoder with adversarial training (GAN-style) to regularize latent space.
+
+**Learning**: How adversarial learning enforces distribution priors.
+
+**Implementation**: Train AAE on MNIST, enforce latent space ~ Normal distribution, sample digits.
